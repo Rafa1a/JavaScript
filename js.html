@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Js</title>
+    <style>
+        body{
+            background-color: cornflowerblue;
+            color: white;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 18pt;
+            
+        }
+    </style>
+
+</head>
+<body>
+    <div class="animals-combobox">
+        <label for="animal">Animal</label>
+        <input
+          id="animal"
+          type="text"
+          role="combobox"
+          aria-autocomplete="inline"
+          aria-controls="animals-listbox"
+          aria-expanded="false"
+          aria-haspopup="listbox" />
+        <ul id="animals-listbox" role="listbox" aria-label="Animals">
+          <li id="animal-cat" role="option">Cat</li>
+          <li id="animal-dog" role="option">Dog</li>
+        </ul>
+      </div>
+      
+    <script>
+            let el = document.getElementById('animal');
+            console.log(el.ariaAutoComplete); // inline
+            el.ariaAutoComplete = "list";
+            console.log(el.ariaAutoComplete); // list
+            el
+    </script>
+</body>
+</html>
