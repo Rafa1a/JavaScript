@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+section > div > p {
+    margin-top: 40px;
+    font: normal 500 1.2em 'work sans';
+}
+section > div#res > p{
+    margin-top: 80px;
+}
+section > div > input{
+    width: 20vw;
+    height: 30px;
+    border-radius: 5px;
+
+    margin-top: 20px;
+
+}
+section > div > input:hover{
+    background-color: rgba(98, 173, 224, 0.356);
+
+}
+section > div > p > input#idade{
+    height: 30px;
+    border-radius: 5px;
+
+    margin-top: 20px;
+    
+}
+section > div > p > input#idade:hover{
+    background-color: rgba(98, 173, 224, 0.356);
+}
