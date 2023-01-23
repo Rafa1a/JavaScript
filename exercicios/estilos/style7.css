@@ -1,0 +1,82 @@
+@charset "utf-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body, html{
+   
+    font: normal 15pt Arial;
+    height: 100vh;
+}
+body{
+    background-color: rgb(42, 164, 201);
+}
+
+header{
+    color: white;
+    text-align: center;
+   
+    
+}
+main{ 
+    position: relative;
+    top: 15%;
+    
+}
+section{
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px;
+    width: 90%;
+    max-width: 1200px;
+    height: auto;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.418);
+    
+}
+
+section p {
+    padding: 15px;
+}
+section input {
+    display: block;
+
+    height: 40px;
+    
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+    font: normal bold 1.2em 'work-sans';
+}
+section input.botao{
+    padding: 5px 40px;
+    margin: auto;
+    border: solid 1px black;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+}
+section select{
+    font: normal bold 1.2em 'work-sans';
+    width: 300px;
+    
+}
+
+div{
+    text-align: center;
+    
+    font-weight: bold;
+}
+
+footer{
+    position: relative;
+    top: 45.5%;
+    color: white;
+    background-color: rgba(27, 153, 153, 0);
+    text-align: center;
+    font-style: italic;
+    
+}
